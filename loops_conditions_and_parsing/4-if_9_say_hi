@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Repite el bucle 10 vece y cambia la novena linea usando
+# la condicion if.
+
+i=0
+while [ $i -lt 10 ]
+do
+	echo "Best School"
+	((i++))
+if [ "$i" -eq 9 ]
+then 
+	echo "Best School Hi"
+fi
+done	
