@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Repite la sentencia hasta que sea mayor que 10
+
+i=0
+until [ $i -gt 10 ]
+do
+	echo "Best School"
+	((i++))
+done	
