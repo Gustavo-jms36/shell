@@ -2,7 +2,7 @@
 # Repite la sentencia hasta que sea mayor que 10
 
 i=0
-until [ $i -gt 10 ]
+until [ $i -gt 9 ]
 do
 	echo "Best School"
 	((i++))
