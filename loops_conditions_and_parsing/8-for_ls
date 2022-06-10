@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Contenido en forma de lista y sin numeraciones y guiones.
+
+inside=0
+
+list=$(ls)
+
+for inside in $list
+do
+	echo "$inside" | cut -d "-" -f2
+done
