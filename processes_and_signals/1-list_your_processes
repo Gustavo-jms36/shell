@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Mostrar procesos
+
+find /prc | less
