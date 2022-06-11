@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# otro escript mas eliminado
+
+pkill -f "7-highlander"otro script mas eliminado
