@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Mostrar contenido de bash
 
-grep -l bash
+pgrep -l bash
