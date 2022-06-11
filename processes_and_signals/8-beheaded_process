@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # elimina otro escript
 
-pkill -KILL -f "7-highlander"
+kill -9 "$(pgrep -f 7-highlander)"
